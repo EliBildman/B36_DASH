@@ -1,0 +1,64 @@
+.panel {
+  border: 0.25vw solid white;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  max-width: none !important;
+}
+
+.background {
+  height: 100vh;
+  font-weight: bold;
+}
+
+.temp-display {
+  font-size: 25vh;
+  @media (max-width: 1600px) {
+    font-size: 200px;
+  }
+  width: 100%;
+}
+
+.weather-icon {
+  height: 6vh;
+  width: 6vh;
+  margin-right: 5%;
+}
+
+/* !important is terrible but need a way to get past the mui style */
+.divider {
+  border-color: white !important;
+  border-bottom-width: 0.25vw !important;
+  border-radius: 8px;
+}
+
+.side-info {
+  font-size: 4vh;
+  font-weight: 100;
+  /* height: fit-content; */
+  margin-bottom: 1.5vh;
+}
+
+.data-value {
+  font-weight: bold;
+}
+
+.summary {
+  font-size: 5vh;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.cloud-pic {
+  height: 100%;
+  width: 100%;
+}
+
+.tri-columns-container {
+  padding: 10px;
+}
+
+.tri-column {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+}
