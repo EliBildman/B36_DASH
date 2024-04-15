@@ -1,6 +1,6 @@
 import { GoogleMap, Marker, TrafficLayer, useJsApiLoader } from "@react-google-maps/api";
 
-const apiKey = "AIzaSyCS-IcBe8uqqFHlCFRLzea3iwVXtevskdA";
+const apiKey = process.env.REACT_APP_GOOGLE_API_KEY ?? '';
 
 const Map: React.FC = () => {
   const { isLoaded } = useJsApiLoader({

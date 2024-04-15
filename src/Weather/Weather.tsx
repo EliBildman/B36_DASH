@@ -8,6 +8,7 @@ import SideStat from "./components/SideStat";
 import Temp from "./components/Temp";
 import { getBackgroundGif } from "./gifs";
 
+// TODO: if i make a backend do the call there
 const weatherApiUrl =
   `http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}`;
 
