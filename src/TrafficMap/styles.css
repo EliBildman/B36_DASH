@@ -13,3 +13,29 @@
   border-radius: 8px;
 }
 
+.commute {
+  border: 0.25vw solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 0.5vw;
+  margin-top: 1.5vh;
+}
+
+.location-name {
+  font-size: 3vh;
+}
+
+.distance {
+  font-size: 2vh;
+  font-weight: lighter;
+}
+
+.duration {
+  font-size: 3.5vh;
+  font-weight: bold;
+}
+
+.commute-list {
+  padding-top: 2vw;
+  padding-right: 2vw;
+}

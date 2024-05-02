@@ -5,6 +5,7 @@ import { GoogleMap, LoadScript, TrafficLayer } from '@react-google-maps/api';
 import { Box, Container, Grid } from "@mui/material";
 import Map from './components/Map';
 import { scheduleDailyTask } from "../utils";
+import CommuteTimes from "./components/CommuteTimes";
 
 const TrafficMap: Board = (props) => {
   const { isActive, requestDisplay } = props;
@@ -26,6 +27,7 @@ const TrafficMap: Board = (props) => {
           </Box>
         </Grid>
         <Grid xs={3} item>
+         <CommuteTimes />
         </Grid>
       </Grid>
   );
