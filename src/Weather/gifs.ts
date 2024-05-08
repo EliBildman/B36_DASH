@@ -1,5 +1,5 @@
 
-const api_key = "9yJlfbad0dkN6DTUpur0PMQwXtGyflGg"
+const api_key = process.env.REACT_APP_GIPHY_API_KEY;
 
 export const getBackgroundGif = async (description: string) => {
   const res = await fetch(`https://api.giphy.com/v1/gifs/search?api_key=${api_key}&q=${description}&limit=25&offset=0&rating=g&lang=en&bundle=messaging_non_clips`);

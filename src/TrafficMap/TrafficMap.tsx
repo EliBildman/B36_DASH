@@ -18,6 +18,8 @@ const TrafficMap: Board = (props) => {
       clearTimeout(timeout);
     }
   })
+
+  if (!isActive) return <div></div>
  
   return (
       <Grid container className="layout">

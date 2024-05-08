@@ -23,7 +23,7 @@ type ActiveBoard = {
 };
 
 const defaultBoard = {
-  index: 1,
+  index: 0,
   urgency: 0,
   startTime: new Date(),
   endTime: new Date(),
